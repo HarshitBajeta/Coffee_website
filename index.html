@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body class="bg-black text-white">
+
+    <div class="bg-[url('images/coffee.jpg')] h-screen bg-center bg-cover bg-fixed">
+        <!-- Overlay -->
+        <div class="absolute left-0 top-0 bottom-0 right-0 opacity-50 bg-black z-0 ">
+        </div>
+        <nav id="navi" class=" navi1 fixed w-full flex items-center justify-between z-20 ">
+            <img class="h-12 w-12 mx-5 bg-black rounded-full" src="images/logo1.png" alt="">
+            <ul class="flex space-x-8 mx-6">
+                <li
+                    class="list-none px-2 py-1 hover:bg-white hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-amber-400">
+                    <a href="#" class="no-underline text-white">Home</a>
+                </li>
+                <li
+                    class="list-none px-2 py-1 hover:bg-white hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-amber-400">
+                    <a href="#" class="no-underline text-white">About</a>
+                </li>
+                <li
+                    class="list-none px-2 py-1 hover:bg-white hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-amber-400">
+                    <a href="#" class="no-underline text-white">Menu</a>
+                </li>
+                <li
+                    class="list-none px-2 py-1 hover:bg-white hover:bg-opacity-10 hover:rounded-md hover:border-b hover:tracking-wider hover:border-amber-400">
+                    <a href="#" class="no-underline text-white">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="absolute top-16">
+            <div class="text-white mt-32 pl-16 max-w-xl ">
+                <h1 class="text-6xl font-semibold leading-normal">Groceries<br>delivery in <span class="font-light">20
+                        mins</span></h1>
+                <p>Grocify offers a wide range of products, including fresh products, meats, dairy, baked goods and
+                    non-perishable items.</p>
+            </div>
+            <div class="pl-16 py-5">
+                <a href="#"
+                    class="bg-amber-500 py-2 px-7 mr-4  font-medium inline-block rounded-3xl hover:bg-transparent hover:border hover:border-amber-500 hover:text-white duration-300  ">Order
+                    Now</a>
+                <a href="#" class="text-white">Download App<span class="text- ml-1 inline-block">&#x27A4;</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="mt-28 mb-10 mx-7 flex justify-evenly">
+        <img class="h-[640px] w-[600px] " src="images/about_us.webp" alt="">
+        <div class="space-y-8 mx-6 max-w-3xl px-2 my-auto">
+            <h1 class="text-5xl text-center text-amber-500 ">About Us</h1>
+            <p class="text-lg text-justify"><span class=""> Welcome to our coffee website! We are passionate about all
+                    things coffee and want to share our love for this delicious and energizing beverage with
+                    you.<br></span>
+                Our coffee is carefully selected from the finest coffee beans around the world, and roasted to
+                perfection to bring out the unique flavors and aromas. We offer a wide variety of coffee blends, from
+                bold and rich to smooth and sweet, to cater to different tastes and preferences.
+                In addition to our coffee, we also offer a range of coffee accessories, such as grinders, filters, and
+                mugs, to enhance your coffee experience. Our team of coffee experts is always on hand to provide advice
+                and recommendations on how to brew the perfect cup of coffee.
+                At our core, we are a community of coffee lovers who are committed to quality, sustainability, and
+                ethical sourcing. We work closely with our coffee farmers and suppliers to ensure that our coffee is
+                produced in an environmentally and socially responsible way. <br>
+                Thank you for visiting our website, and we look forward to sharing our passion for coffee with you!</p>
+            <button class="text-amber-300 text-lg px-1 py-1 hover:border-b-2 hover:border-trans">Learn More</button>
+        </div>
+    </div>
+    <div class="mx-10 py-10">
+        <h1 class="text-5xl text-center my-8">What's <span class="text-amber-500">New</span></h1>
+        <div class="cont w-[180vh] mx-auto z-10">
+            <div>
+                <img class="w-full h-[60%]" src="images/offer1.jpg" alt="" srcset="">
+            </div>
+            <div>
+                <img class="w-full  h-[60%]" src="images/offer.avif" alt="" srcset="">
+            </div>
+            <div>
+                <img class="w-full h-[60%]" src="images/offer3.jpg" alt="" srcset="">
+            </div>
+            <div>
+                <img class="w-full h-[60%]" src="images/offer5.jpg" alt="" srcset="">
+            </div>
+            <div>
+                <img class="w-full h-[60%]" src="images/offer4.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class=" container mt-7 pt-1 min-w-full">
+        <h1 class="text-5xl mx-auto text-center py-4 mb-3">Our <span class="text-amber-500">Menu</span></h1>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 my-2 py-2 gap-y-10 mt-3 mx-auto lg:mx-32">
+            <div class="max-w-sm bg-stone-900 mx-1 relative " onmouseover="ff(this)" onmouseout="fi(this)" >
+                <img class="h-[90%] w-[100%] " src="images/espresso.webp" alt="">
+                <h1 class="text-center py-1">Espresso</h1>
+                <p  class=" mx-2 px-1 text-center absolute top-[40%] hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit cumque alias ad iste rem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit.</p>
+            </div>
+            <div class="max-w-sm bg-stone-900 mx-1 relative" onmouseover="ff(this)" onmouseout="fi(this)">
+                <img class="h-[90%] w-full  " src="images/Moccha.jpg" alt="">
+                <h1 class="text-center py-1">Mocha</h1>
+                <p  class=" mx-2 px-1 text-center absolute top-[40%] hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit cumque alias ad iste rem. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+            </div>
+            <div class="max-w-sm bg-stone-900 mx-1 relative" onmouseover="ff(this)" onmouseout="fi(this)">
+                <img class="h-[90%] w-full " src="images/americano.jpg" alt="">
+                <h1 class="text-center py-1">Americano</h1>
+                <p  class=" mx-2 px-1 text-center absolute top-[40%] hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit cumque alias ad iste rem. Lorem, ipsum dolor. </p>
+
+            </div>
+            <div class="max-w-sm bg-stone-900 mx-1 relative" onmouseover="ff(this)" onmouseout="fi(this)">
+                <img class="h-[90%] w-full " src="images/Cartado.jpg" alt="">
+                <h1 class="text-center py-1">Cartado</h1>
+                <p  class=" mx-2 px-1 text-center absolute top-[40%] hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit cumque alias ad iste rem.</p>
+
+            </div>
+            <div class="max-w-sm bg-stone-900 mx-1 relative" onmouseover="ff(this)" onmouseout="fi(this)">
+                <img class="h-[90%] w-full " src="images/capp.jpg" alt="">
+                <h1 class="text-center py-1">Cappuchino</h1>
+                <p  class=" mx-2 px-1 text-center absolute top-[40%] hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit cumque alias ad iste rem.</p>
+
+            </div>
+            <div class="max-w-sm bg-stone-900 mx-1 relative" onmouseover="ff(this)" onmouseout="fi(this)">
+                <img class="h-[90%] w-full " src="images/Ice.jpg" alt="">
+                <h1 class="text-center py-1">Iced Americano</h1>
+                <p  class=" mx-2 px-1 text-center absolute top-[40%] hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit cumque alias ad iste rem.</p>
+
+            </div>
+            <div class="max-w-sm bg-stone-900 mx-1 relative" onmouseover="ff(this)" onmouseout="fi(this)">
+                <img class="h-[90%] w-full " src="images/velvel.jpg" alt="">
+                <h1 class="text-center py-1">Velvet Vanilla Latte</h1>
+                <p  class=" mx-2 px-1 text-center absolute top-[40%] hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit cumque alias ad iste rem.</p>
+
+            </div>
+            <div class="max-w-sm bg-stone-900 mx-1 relative" onmouseover="ff(this)" onmouseout="fi(this)">
+                <img class="h-[90%] w-full " src="images/Caramel.jpg" alt="">
+                <h1 class="text-center py-1">Caramel</h1>
+                <p  class=" mx-2 px-1 text-center absolute top-[40%] hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit cumque alias ad iste rem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, sunt!</p>
+
+            </div>
+            <div class="max-w-sm bg-stone-900 mx-1 relative" onmouseover="ff(this)" onmouseout="fi(this)">
+                <img class="h-[90%] w-full " src="images/expresso.webp" alt="">
+                <h1 class="text-center py-1">American Latte</h1>
+                <p  class=" mx-2 px-1 text-center absolute top-[40%] hidden ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit cumque alias ad iste rem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. In dolorem nihil soluta quibusdam fugiat et!</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="py-10 mt-10 mb-8">
+        <h1 class="text-5xl text-center py-1">Our Top <span class="text-amber-500">Customer's</span> </h1>
+        <div class="cc w-[180vh] my-10 space-x-6 mx-auto">
+    
+            <div id="do" class="mx-4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                
+                <img class="rounded-full max-h-fit " src="images/teacher-2.png" alt="" />
+                
+                <div class="p-5 ">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Naitik Patel</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 dark:text-gray-400 text-justify">This is freaky good  coffee. It is always freshly roasted when it <span>...</span><span class="hidden">arrives at my house. Atomic has an easy to use and change subscription service.  Why would you buy coffee from anywhere else.</span></p>
+                    <button onclick="toggleText1(this)" class=" text-amber-500">
+                     Read more
+                    </button>
+                </div>
+            </div>
+            <div class="mx-4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                <a href="#">
+                    <img class=" rounded-full " src="images/teacher-3.png" alt="" />
+                </a>
+                <div id="x" class="p-5 ">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Natasha Oberoy</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+                        acquisitions of 2021
+                         <span id="dots">...</span>
+                         <span id="more" class="hidden"> so far, in reverse chronological order.</span>
+                    </p>
+                    <button onclick="toggleText1(this)"  class=" text-amber-500">
+                    Read more     
+                    </button>
+                </div>
+            </div>
+            <div class="mx-4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                <a href="#">
+                    <img class=" rounded-full " src="images/teacher-4.png" alt="" />
+                </a>
+                <div class="p-5 ">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Hayley Michael</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit  adipisicing elit. Quisquam, id?
+                         <span id="dots">...</span>
+                         <span id="more" class="hidden">Lorem, ipsum dolor. so far, in reverse chronological order.</span>
+                    </p>
+                    <button onclick="toggleText1(this)"  class=" text-amber-500">
+                    Read more     
+                    </button>
+                </div>
+            </div>
+            <div class="mx-4max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                <a href="#">
+                    <img class=" rounded-full " src="images/teacher-5.png" alt="" />
+                </a>
+                <div class="p-5 ">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Samuel Paul</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                         <span id="dots">...</span>
+                         <span id="more" class="hidden"> Lorem ipsum dolor sit amet consectetur. so far, in reverse chronological order.</span>
+                    </p>
+                    <button onclick="toggleText1(this)"  class=" text-amber-500">
+                    Read more     
+                    </button>
+                </div>
+            </div>
+            <div class=" mx-4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                <a href="#">
+                    <img class=" rounded-full " src="images/teacher-6.png" alt="" />
+                </a>
+                <div class="p-5 ">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Delisha Khati</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet ruti elit. Quidem quia quam odit.
+                         <span id="dots">...</span>
+                         <span id="more" class="hidden"> so far, in reverse rebrde wethert chronological order.</span>
+                    </p>
+                    <button onclick="toggleText1(this)"  class=" text-amber-500">
+                    Read more     
+                    </button>
+                </div>
+            </div>
+            <div class="mx-4 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+                <a href="#">
+                    <img class=" rounded-full " src="images/teacher-3.png" alt="" />
+                </a>
+                <div class="p-5 ">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Shaun Manhion</h5>
+                    </a>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">Lorem ipsum dolor sit amet  elit. Eius odit pariatur possimus quos.
+                         <span id="dots">...</span>
+                         <span id="more" class="hidden">Lorem ipsum dolor sit amet consectetur. so far, in reverse chronological order.</span>
+                    </p>
+                    <button onclick="toggleText1(this)" class=" text-amber-500">
+                    Read more     
+                    </button>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="mt-9 pt-1" style="background-color: rgb(12 10 9);">
+        <h1 class="text-5xl text-center mt-3 my-9"><span class="text-amber-500">Contact</span> Us</h1>
+        <div class=" flex flex-row justify-center mr-8">
+            <form action="#" class="space-y-5 flex flex-col w-2/4 px-10 py-2">
+                <h1 class="text-lg">Send a Message</h1>
+                <div class="flex space-x-9">
+                    <div class="flex flex-col space-y-1 w-1/2">
+                        <label for="First Name">First Name</label>
+                        <input type="text" name="First" placeholder="John" class="opacity-80 text-black px-1 py-1">
+                    </div>
+                    <div class="flex flex-col space-y-1 w-1/2">
+                        <label for="Last Name">Last Name</label>
+                        <input type="text" name="Last" placeholder="Doe" class="opacity-80 px-1 py-1 text-black">
+                    </div>
+                </div>
+                <div class="flex space-x-9">
+                    <div class="flex flex-col space-y-1 w-1/2">
+                        <label for="email">Email</label>
+                        <input type="email" name="" placeholder="xyz@gmail.com" required
+                            class="opacity-80 px-1 py-1 text-black">
+                    </div>
+                    <div class="flex flex-col space-y-1 w-1/2">
+                        <label for="Mobile">Mobile No.</label>
+                        <input type="text" name="number" placeholder="+91 7998826361"
+                            class="opacity-80 px-1 py-1 text-black">
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-1 ">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="" cols="50" rows="10" placeholder="Enter your text"
+                        class="opacity-80 px-1 py-1 text-black"></textarea>
+                </div>
+                <button
+                    class="text-left w-1/12 bg-white bg-opacity-60 px-2 py-1 rounded-md hover:bg-opacity-30">Send</button>
+            </form>
+
+            <div class=" flex flex-col justify-center ">
+                <div class="flex flex-col space-y-3 mx-2 mb-5 px-2  ">
+                    <h1 class="px-1 text-lg">Info</h1>
+                    <div class="flex space-x-5 ">
+                        <div class=" bg-white rounded-full w-8 h-8 "><i class="fa-solid fa-location-pin px-2 py-2"
+                                style="color: black;"></i></div>
+                        <h1>Cannaught Palace, New Delhi, India</h1>
+                    </div>
+                    <div class="flex space-x-5">
+                        <div class="bg-white rounded-full w-8 h-8 flex"><i class="fa-solid fa-envelope px-2 py-2"
+                                style="color:black;"></i></div>
+                        <a href="gmail.com">xyz1@gmail.com</a>
+                    </div>
+                    <div class="flex space-x-5">
+                        <div class=" bg-white rounded-full w-8 h-8 flex"><i class="fa-solid fa-phone px-2 py-2"
+                                style="color:black;"></i></div>
+                        <h1>+91 8556873190</h1>
+                    </div>
+                    <div class="flex space-x-6 pt-6 pb-3 px-1">
+                        <div class=" bg-amber-500 rounded-full w-8 h-8 "><i class="fa-brands fa-facebook-f px-2 py-2"
+                                style="color: black;"></i></div>
+                        <div class=" bg-amber-500 rounded-full w-8 h-8 "><i class="fa-brands fa-twitter px-2 py-2"
+                                style="color:black;"></i></div>
+                        <div class=" bg-amber-500 rounded-full w-8 h-8 "><i class="fa-brands fa-instagram px-2 py-2"
+                                style="color:black;"></i></div>
+                        <div class=" bg-amber-500 rounded-full w-8 h-8 "><i class="fa-brands fa-linkedin px-2 py-2"
+                                style="color:black;"></i></div>
+                    </div>
+                </div>
+                <div class="mx-2 px-2">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d14008.114947263992!2d77.19734799110624!3d28.628900818956115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scannot%20place!5e0!3m2!1sen!2sin!4v1680381829385!5m2!1sen!2sin"
+                        width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <div class="p-2 text-center" style="background-color: rgba(0, 0, 0, 0.2)"> © 2023 Copyright:
+      <a class="text-white" href="#" >Harshit Bajeta</a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        function ff(e){
+            e.lastElementChild.style.display = 'block';
+            e.firstElementChild.style.opacity ='0.5'
+        }
+        function fi(e){
+            e.lastElementChild.style.display = 'none';
+            e.firstElementChild.style.opacity ='1'
+        }
+        function f1(e){
+           // console.log(e.previousElementSibling) 
+            e.style.display ='none';
+            e.previousElementSibling.style.display = 'inline-flex';
+            // console.log(e.parentElement.firstElementChild.style.display)
+        }
+        function f2(e){
+           // console.log(e.parentElement.firstElementChild.style.display)
+            e.style.display ='inline-flex';
+            e.previousElementSibling.style.display = 'none';
+           // console.log(e.parentElement.firstElementChild.style.display)
+        }
+        function toggleText() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var button = document.getElementById("button");
+
+            if (dots.classList.contains("hidden")) {
+                // Show the dots
+                dots.classList.remove("hidden");
+
+                // Hide the more text
+                moreText.classList.add("hidden");
+
+                // change text of the button
+                button.innerHTML = "Read more";
+            } else {
+                // Hide the dots
+                dots.classList.add("hidden");
+
+                // hide the more text
+                moreText.classList.remove("hidden");
+
+                // change text of the button
+                //button.innerHTML = "";
+                button.innerHTML = "Read Less";
+            }
+        }
+        // function toggleTe(e) {
+        //     // var dots = document.getElementById("dots");
+        //     // var moreText = document.getElementById("more");
+        //     // var button = document.getElementById("button");
+        //         console.log(e)
+        //         console.log(e.previousElementSibling.children.item(0))
+        //         // Show the dots
+        //         e.previousElementSibling.children.item(0).classList.remove("hidden");
+
+        //         // Hide the more text
+        //         e.previousElementSibling.children.item(1).classList.add("hidden");
+
+        //         // change text of the button
+        //         e.innerHTML = "Read more";
+            
+        // }
+        function toggleText1(e) {
+            
+
+            if ( e.previousElementSibling.children.item(0).classList.contains("hidden")) {
+                // Show the dots
+                e.previousElementSibling.children.item(0).classList.remove("hidden");
+
+                // Hide the more text
+                e.previousElementSibling.children.item(1).classList.add("hidden");
+                
+                // change text of the button
+                e.innerHTML = "Read more";
+                e.parentElement.style.backgroundColor = "transparent";
+                e.parentElement.style.opacity = "1";
+
+            } else {
+                // Hide the dots
+                e.previousElementSibling.children.item(0).classList.add("hidden");
+
+                // hide the more text
+                e.previousElementSibling.children.item(1).classList.remove("hidden");
+
+                // change text of the button
+                
+                e.innerHTML = "Read Less";
+                e.parentElement.style.backgroundColor = "black";
+                e.parentElement.style.opacity = "0.7";
+              
+                
+            }
+        }
+
+    </script>
+</body>
+
+</html>
